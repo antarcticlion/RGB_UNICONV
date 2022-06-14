@@ -13,6 +13,20 @@ PCBs for Retro computer display connector convertion.
 
 ### Digital RGB DIN8p PC-8001 type pinout to DE15 VGA pinout (support ex. PC-8001/8801/9801/FM-7/MZ-700/Basic master level3/X1 turbo model 40)  
   
+  #### lastest gerber 
+  - DIN8_PC8001_IN PCB  
+　　　https://github.com/antarcticlion/RGB_UNICONV/raw/main/DIN8_PC8001_IN/gerber/RGB_CONN_CHG_DIN8_ST4.zip  
+　　　PC-8001 type RGB display 8-pin DIN connector Breakout board for pin-out.  
+　　　Adjust the level using a 150Ω resistor.  
+  - ANGLE_CHANGE_MID PCB 
+　　　https://github.com/antarcticlion/RGB_UNICONV/blob/main/ANGLE_CHANGE_MID/gerber/RGB_CONN_CHG_MID_ST3.zip  
+　　　By sandwiching this board between the input board and the output board, the position of the signal pin is changed by 90 degrees.  
+　　　Used when the connector interferes.  
+　　　You can also combine two boards to extend the overall length.  
+  - DE15_OUT PCB  
+　　　https://github.com/antarcticlion/RGB_UNICONV/raw/main/DE15_OUT/gerber/RGB_CONN_CHG_DE15_CUP_ST2.zip  
+　　　Breakout board for solder cup type D-sub 15-pin 3-rows (DE15) connector.  
+  
 #### BOM (short profile)  
  - DIN8_PC8001_IN PCB x1  
  - DE15_OUT PCB x1  
