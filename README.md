@@ -16,7 +16,7 @@ PCBs for Retro computer display connector convertion.
   #### lastest gerber 
   - DIN8_PC8001_IN PCB  
 　　　https://github.com/antarcticlion/RGB_UNICONV/raw/main/DIN8_PC8001_IN/gerber/RGB_CONN_CHG_DIN8_ST4.zip  
-　　　PC-8001 type RGB display 8-pin DIN connector Breakout board for pin-out.  
+　　　PC-8001 type pin-out RGB display 8-pin DIN connector Breakout board.  
 　　　Adjust the level using a 150Ω resistor.  
 <img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DIN8_8001_A.png" alt="DIN8_8001_IN PCB SIDE A" width="320" height="256"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DIN8_8001_B.png" alt="DIN8_8001_IN PCB SIDE B" width="288" height="256"/>  
   
