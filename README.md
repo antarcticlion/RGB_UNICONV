@@ -63,6 +63,11 @@ PCBs for Retro computer display connector convertion.
  - long pin header(minimum height 6mm) 3p x6  
 
 ---
+#  Source of reference
+ - PC-8001 type DIN8 RGB Display connector pinout : 改訂2版 PC-9800シリーズ テクニカルデータブック HARDWAER編 ISBN4-7561-1008-8
+ - VGA DE15 RGB Display connector pinout : SECOND EDITION THE PROGRAMMER'S PC SOURCEBOOK ISBN1-55615-321-X
+
+---
 
 # LICENSE
 
