@@ -25,6 +25,8 @@ PCBs for Retro computer display connector convertion.
 　　　By sandwiching this board between the input board and the output board, the position of the signal pin is changed by 90 degrees.  
 　　　Used when the connector interferes.  
 　　　You can also combine two boards to extend the overall length.  
+　　　When using two board for extension, make sure that the direction and orientation are the same.  
+　　　Doing so will cause the signal to return to its original position.  
 <img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/ANGLE_A.png" alt="ANGLE_CHANGE_MID PCB SIDE A" width="256" height="256"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/ANGLE_B.png" alt="ANGLE_CHANGE_MID PCB SIDE B" width="256" height="256"/>    
   
   - DE15_OUT PCB  
