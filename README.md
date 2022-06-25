@@ -2,8 +2,15 @@
 
 PCBs for Retro computer display connector convertion.  
 
+---  
+  
+## news  
+  
+2022/06/25 Added the assembly procedure to the wiki. Since it is written in Japanese, please machine-translate it into your native language.  
+https://github.com/antarcticlion/RGB_UNICONV/wiki/How-to-make  
+  
 ---
-
+  
 ## available configulations  
   now, only one configulation.  
 ### Digital RGB DIN8p PC-8001 type pinout to DE15 VGA pinout (support ex. PC-8001/8801/9801/FM-7/MZ-700/Basic master level3/X1 turbo model 40)  
