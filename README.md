@@ -20,7 +20,7 @@ https://github.com/antarcticlion/RGB_UNICONV/wiki/How-to-make
 ---
 ## GERBERs and BOMs
 
-### Digital RGB DIN8p PC-8001 type pinout to DE15 VGA pinout (support ex. PC-8001/8801/9801/FM-7/MZ-700/Basic master level3/X1 turbo model 40)  
+### Digital RGB DIN8p PC-8001 type pinout to DE15 VGA pinout (support ex. PC-8001/8801/9801/FM-7/MZ-700/Pasopia PA7010/Basic master level3/X1 turbo model 40)  
   
   #### lastest gerber 
   ##### DIN8_PC8001_IN PCB  
