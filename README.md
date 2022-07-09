@@ -44,6 +44,9 @@ https://github.com/antarcticlion/RGB_UNICONV/wiki/How-to-make
 　　　https://github.com/antarcticlion/RGB_UNICONV/raw/main/DE15_OUT/gerber/RGB_CONN_CHG_DE15_CUP_ST2.zip  
 　　　Breakout board for solder cup type D-sub 15-pin 3-rows (DE15) connector.  
 <img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DE15_CUP_A.png" alt="DE15_OUT PCB SIDE A" width="450" height="240"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DE15_CUP_B.png" alt="DE15_OUT PCB SIDE B" width="450" height="240"/>  
+　　　https://github.com/antarcticlion/RGB_UNICONV/raw/main/DE15_OUT/gerber/RGB_CONN_CHG_DE15_ST.zip  
+　　　Breakout board for pin type D-sub 15-pin 3-rows (DE15) connector.  
+<img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DE15_pin_A.png" alt="DE15_OUT pin PCB SIDE A" width="450" height="240"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DE15_pin_B.png" alt="DE15_OUT pin PCB SIDE B" width="450" height="240"/>  
   
 #### BOM (short profile)  
  - DIN8_PC8001_IN PCB x1  
