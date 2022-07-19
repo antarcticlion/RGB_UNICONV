@@ -90,11 +90,11 @@ https://github.com/antarcticlion/RGB_UNICONV/wiki/How-to-make
 ##### DA15_PC88SR_IN PCB  
   https://github.com/antarcticlion/RGB_UNICONV/raw/main/DA15_88SR_IN/gerber/RGB_CONN_CHG_DA15_PC88SR_ST2.zip  
 
-PC-8801mk2SR type pin-out RGB display D-Sub 15pin 2row connector(Solder cup type) Breakout board.  
-  CSYNC and Audio L R are pulled out in the optional pinout.  
-  Confirm that the CSYNC signal is output by SR generation on PC88 and by XL, VX, DX, DA, FA on PC98. It has appeared in major models up to FA, but it seems that it has not appeared since then.  
-GS / 9821S is unknown.  
-It seems that PC286 / 386/486 is not available in later models. Probably not all models of X68000 are out.  
+PC-8801mk2SR type pin-out RGB display D-Sub 15pin 2row connector(Solder cup type) Breakout board.
+CSYNC and Audio L R are pulled out in the optional pinout.
+Confirmed that the CSYNC signal is output by 88SR generations.  and by XL, VX, DX, DA, FA on PC98. It has appeared in major models up to FA, but it seems that it has not appeared since then.
+GS / 9821S is unknown.
+It seems that PC286 / 386/486 is not available in later models. Probably not all models of X68000 are out.
 
 Audio L R can be expected to output on all models of PC88SR or later / X68000. In PC98, it seems that it is output in the model equipped with FM sound source on the motherboard (confirmed with 98DA)  
 On the YM2203-equipped machine, the same sound is produced for both LR.  
