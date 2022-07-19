@@ -80,7 +80,7 @@ https://github.com/antarcticlion/RGB_UNICONV/wiki/How-to-make
 
 #### lastest gerber 
 ##### DA15_PC88SR_IN PCB  
-  https://github.com/antarcticlion/RGB_UNICONV/raw/main/DIN8_PC8001_IN/gerber/RGB_CONN_CHG_DIN8_ST4.zip  
+  https://github.com/antarcticlion/RGB_UNICONV/raw/main/DA15_88SR_IN/gerber/RGB_CONN_CHG_DA15_PC88SR_ST2.zip
 　PC-8801mk2SR type pin-out RGB display D-Sub 15pin 2row connector(Solder cup type) Breakout board.  
   CSYNC and Audio L R are pulled out in the optional pinout.  
   CSYNC signal Solder cup type connector
