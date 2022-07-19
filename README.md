@@ -100,6 +100,12 @@ It seems that PC286 / 386/486 is not available in later models. Probably not all
 Audio L R can be expected to output on all models of PC88SR or later / X68000. In PC98, it seems that it is output in the model equipped with FM sound source on the motherboard (confirmed with 98DA)
 On the YM2203-equipped machine, the same sound is produced for both LR.
 
+##### CSYNC_ANGLE_CHANGE_MID PCB  
+https://github.com/antarcticlion/RGB_UNICONV/raw/main/ANGLE_CHANGE_MID/gerber/RGB_CONN_CHG_MID_ST3.zip
+This angle-change-PCB have prepared a jumper so that you can select the relay of CSYNC and HSYNC that are pulled out as an option.  
+This makes it possible to directly connect a PC-8801mk2SR, etc. to the GBS8200 / 8220 / HD-VC9900.  
+
+
 （加筆中、しばらくお待ちください）
 
 ---
