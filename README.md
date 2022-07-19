@@ -84,29 +84,68 @@ https://github.com/antarcticlion/RGB_UNICONV/wiki/How-to-make
 
 ### Analog RGB DSUB15p 2row(DA15) PC-8801mk2SR type pinout to DE15 VGA pinout (support ex. PC-8801SR～/9801U･VM～/X68000)  
 
-（加筆中、しばらくお待ちください）
-
 #### lastest gerber 
 ##### DA15_PC88SR_IN PCB  
-  https://github.com/antarcticlion/RGB_UNICONV/raw/main/DA15_88SR_IN/gerber/RGB_CONN_CHG_DA15_PC88SR_ST2.zip
-　PC-8801mk2SR type pin-out RGB display D-Sub 15pin 2row connector(Solder cup type) Breakout board.  
-  CSYNC and Audio L R are pulled out in the optional pinout.  
-  CSYNC signal Solder cup type connector
+  https://github.com/antarcticlion/RGB_UNICONV/raw/main/DA15_88SR_IN/gerber/RGB_CONN_CHG_DA15_PC88SR_ST2.zip  
 
-Confirm that the CSYNC signal is output by SR generation on PC88 and by XL, VX, DX, DA, FA on PC98. It has appeared in major models up to FA, but it seems that it has not appeared since then.  
+PC-8801mk2SR type pin-out RGB display D-Sub 15pin 2row connector(Solder cup type) Breakout board.  
+  CSYNC and Audio L R are pulled out in the optional pinout.  
+  Confirm that the CSYNC signal is output by SR generation on PC88 and by XL, VX, DX, DA, FA on PC98. It has appeared in major models up to FA, but it seems that it has not appeared since then.  
 GS / 9821S is unknown.  
 It seems that PC286 / 386/486 is not available in later models. Probably not all models of X68000 are out.  
 
-Audio L R can be expected to output on all models of PC88SR or later / X68000. In PC98, it seems that it is output in the model equipped with FM sound source on the motherboard (confirmed with 98DA)
-On the YM2203-equipped machine, the same sound is produced for both LR.
+Audio L R can be expected to output on all models of PC88SR or later / X68000. In PC98, it seems that it is output in the model equipped with FM sound source on the motherboard (confirmed with 98DA)  
+On the YM2203-equipped machine, the same sound is produced for both LR.  
+<img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DA15_PC88SR_A.png" alt="DA15_PC88SR_IN PCB SIDE A" width="288" height="256"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DA15_PC88SR_B.png" alt="DA15_PC88SR_IN PCB SIDE B" width="288" height="256"/>   
 
 ##### CSYNC_ANGLE_CHANGE_MID PCB  
-https://github.com/antarcticlion/RGB_UNICONV/raw/main/ANGLE_CHANGE_MID/gerber/RGB_CONN_CHG_MID_ST3.zip
+https://github.com/antarcticlion/RGB_UNICONV/raw/main/ANGLE_CHANGE_MID/gerber/RGB_CONN_CHG_MID_ST3.zip  
+
 This angle-change-PCB have prepared a jumper so that you can select the relay of CSYNC and HSYNC that are pulled out as an option.  
 This makes it possible to directly connect a PC-8801mk2SR, etc. to the GBS8200 / 8220 / HD-VC9900.  
+<img src="https://raw.githubusercontent.com/antarcticlion/RGB_UNICONV/main/images/CSYNC_MID_A.png" alt="CSYNC_ANGLE_CHANGE_MID PCB SIDE A" width="288" height="256"/><img src="https://raw.githubusercontent.com/antarcticlion/RGB_UNICONV/main/images/CSYNC_MID_B.png" alt="CSYNC_ANGLE_CHANGE_MID PCB SIDE B" width="288" height="256"/>   
 
+#### BOM (short profile)  
+ - DA15_PC88SR_IN PCB x1  
+ - DE15_OUT PCB x1  
+ - DA15 male connector (solder cup) x1  
+ - DE15 female connector (solder cup) x1  
+ - long pin header(minimum height 6mm) 3p x2  
+  
+#### BOM (90° angle profile)  
+ - DA15_PC88SR_IN PCB x1  
+ - ANGLE_CHANGE_MID PCB x1  
+ - DE15_OUT PCB x1  
+ - DA15 male connector (solder cup) x1  
+ - DE15 female connector (solder cup) x1  
+ - long pin header(minimum height 6mm) 3p x4  
+  
+#### BOM (long profile)  
+ - DA15_PC88SR_IN PCB x1  
+ - ANGLE_CHANGE_MID PCB x2  
+ - DE15_OUT PCB x1  
+ - DA15 male connector (solder cup) x1  
+ - DE15 female connector (solder cup) x1  
+ - long pin header(minimum height 6mm) 3p x6  
 
-（加筆中、しばらくお待ちください）
+#### BOM (90° angle profile with csync)  
+ - DA15_PC88SR_IN PCB x1  
+ - CSYNC_ANGLE_CHANGE_MID PCB x1  
+ - DE15_OUT PCB x1  
+ - DA15 male connector (solder cup) x1  
+ - DE15 female connector (solder cup) x1  
+ - long pin header(minimum height 6mm) 3p x3  
+ - long pin header(minimum height 6mm) 4p x1  
+  
+#### BOM (long profile with csync)  
+ - DA15_PC88SR_IN PCB x1  
+ - CSYNC_ANGLE_CHANGE_MID PCB x1  
+ - ANGLE_CHANGE_MID PCB x1  
+ - DE15_OUT PCB x1  
+ - DA15 male connector (solder cup) x1  
+ - DE15 female connector (solder cup) x1  
+ - long pin header(minimum height 6mm) 3p x5  
+ - long pin header(minimum height 6mm) 4p x1  
 
 ---
 #  Source of reference
