@@ -74,6 +74,26 @@ https://github.com/antarcticlion/RGB_UNICONV/wiki/How-to-make
  - PCB mount din8 connector x1  
  - long pin header(minimum height 6mm) 3p x6  
 
+### Analog RGB DSUB15p 2row(DA15) PC-8801mk2SR type pinout to DE15 VGA pinout (support ex. PC-8801SR～/9801U･VM～/X68000)  
+
+（加筆中、しばらくお待ちください）
+
+#### lastest gerber 
+##### DA15_PC88SR_IN PCB  
+  https://github.com/antarcticlion/RGB_UNICONV/raw/main/DIN8_PC8001_IN/gerber/RGB_CONN_CHG_DIN8_ST4.zip  
+　PC-8801mk2SR type pin-out RGB display D-Sub 15pin 2row connector(Solder cup type) Breakout board.  
+  CSYNC and Audio L R are pulled out in the optional pinout.  
+  CSYNC signal Solder cup type connector
+
+Confirm that the CSYNC signal is output by SR generation on PC88 and by XL, VX, DX, DA, FA on PC98. It has appeared in major models up to FA, but it seems that it has not appeared since then.  
+GS / 9821S is unknown.  
+It seems that PC286 / 386/486 is not available in later models. Probably not all models of X68000 are out.  
+
+Audio L R can be expected to output on all models of PC88SR or later / X68000. In PC98, it seems that it is output in the model equipped with FM sound source on the motherboard (confirmed with 98DA)
+On the YM2203-equipped machine, the same sound is produced for both LR.
+
+（加筆中、しばらくお待ちください）
+
 ---
 #  Source of reference
  - PC-8001 type DIN8 RGB Display connector pinout : 改訂2版 PC-9800シリーズ テクニカルデータブック HARDWAER編 ISBN4-7561-1008-8
