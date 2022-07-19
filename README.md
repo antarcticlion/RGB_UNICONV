@@ -6,6 +6,8 @@ PCBs for Retro computer display connector convertion.
   
 ## news  
 
+2022/07/09 Added PC8801SR etc. DA15 configulation
+
 2022/07/09 Added pin type DE15 out PCB
 
 2022/06/25 Added the assembly procedure to the wiki. Since it is written in Japanese, please machine-translate it into your native language.  
