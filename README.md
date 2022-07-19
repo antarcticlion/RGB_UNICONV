@@ -6,7 +6,8 @@ PCBs for Retro computer display connector convertion.
   
 ## news  
 
-2022/07/09 Added PC8801SR etc. DA15 configulation
+2022/07/20 Added X1/X1turbo DIN6 configulation
+2022/07/20 Added PC8801SR etc. DA15 configulation
 
 2022/07/09 Added pin type DE15 out PCB
 
@@ -16,8 +17,9 @@ https://github.com/antarcticlion/RGB_UNICONV/wiki/How-to-make
 ---
   
 ## available configulations  
-### Digital RGB DIN8p PC-8001 type pinout to DE15 VGA pinout (support ex. PC-8001/8801/9801/FM-7/MZ-700/Basic master level3/Pasopia PA7010/X1 turbo model 40)  
-### Analog RGB DSUB15p 2row(DA15) PC-8801mk2SR type pinout to DE15 VGA pinout (support ex. PC-8801SR～/9801U･VM～/X68000)  
+- Digital RGB DIN8p PC-8001 type pinout to DE15 VGA pinout (support ex. PC-8001/8801/9801/FM-7/MZ-700/Basic master level3/Pasopia PA7010/X1 turbo model 40)  
+- Analog RGB DSUB15p 2row(DA15) PC-8801mk2SR type pinout to DE15 VGA pinout (support ex. PC-8801SR～/9801U･VM～/X68000)  
+- Digital RGB DIN6p X1/X1turbo(without model 40) type pinout to DE15 VGA pinout  
 
 ---
 ## photos  
@@ -150,9 +152,47 @@ This makes it possible to directly connect a PC-8801mk2SR, etc. to the GBS8200 /
  - long pin header(minimum height 6mm) 4p x1  
 
 ---
+
+### Digital RGB DIN6p X1/X1turbo(without model 40) type pinout to DE15 VGA pinout  
+  
+  #### lastest gerber 
+  ##### DIN6_X1_IN PCB  
+　　　https://github.com/antarcticlion/RGB_UNICONV/raw/main/DIN6_X1_IN/gerber/RGB_CONN_CHG_DIN6_ST4.zip  
+　　　X1/X1turbo type pin-out RGB display 6-pin DIN connector Breakout board.  
+　　　Adjust the level using a 150Ω resistor.  
+<img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DIN6_X1_A.png" alt="DIN6_X1_IN PCB SIDE A" width="320" height="256"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DIN6_X1_B.png" alt="DIN6_X1_IN PCB SIDE B" width="288" height="256"/>  
+
+#### BOM (short profile)  
+ - DIN6_X1_IN PCB x1  
+ - DE15_OUT PCB x1  
+ - 150ohm register x3  
+ - DE15 connector (solder cup) x1  
+ - PCB mount din8 connector x1  
+ - long pin header(minimum height 6mm) 3p x2  
+  
+#### BOM (90° angle profile)  
+ - DIN6_X1_IN PCB x1  
+ - ANGLE_CHANGE_MID PCB x1  
+ - DE15_OUT PCB x1  
+ - 150ohm register x3  
+ - DE15 connector (solder cup) x1  
+ - PCB mount din8 connector x1  
+ - long pin header(minimum height 6mm) 3p x4  
+  
+#### BOM (long profile)  
+ - DIN6_X1_IN PCB x1  
+ - ANGLE_CHANGE_MID PCB x2  
+ - DE15_OUT PCB x1  
+ - 150ohm register x3  
+ - DE15 connector (solder cup) x1  
+ - PCB mount din8 connector x1  
+ - long pin header(minimum height 6mm) 3p x6  
+
+---
 #  Source of reference
  - PC-8001 type DIN8 RGB Display connector pinout : 改訂2版 PC-9800シリーズ テクニカルデータブック HARDWAER編 ISBN4-7561-1008-8
  - VGA DE15 RGB Display connector pinout : SECOND EDITION THE PROGRAMMER'S PC SOURCEBOOK ISBN1-55615-321-X
+ - X1センター -> インターフェイスコネクタ http://www.x1center.org/
 
 ---
 
