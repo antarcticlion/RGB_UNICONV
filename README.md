@@ -14,13 +14,16 @@ https://github.com/antarcticlion/RGB_UNICONV/wiki/How-to-make
 ---
   
 ## available configulations  
-  now, only one configulation.  
-### Digital RGB DIN8p PC-8001 type pinout to DE15 VGA pinout (support ex. PC-8001/8801/9801/FM-7/MZ-700/Basic master level3/X1 turbo model 40)  
+### Digital RGB DIN8p PC-8001 type pinout to DE15 VGA pinout (support ex. PC-8001/8801/9801/FM-7/MZ-700/Basic master level3/Pasopia PA7010/X1 turbo model 40)  
+### Analog RGB DSUB15p 2row(DA15) PC-8801mk2SR type pinout to DE15 VGA pinout (support ex. PC-8801SR～/9801U･VM～/X68000)  
 
 <img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/image001.jpg" alt="PC8001 short profile 1" width="320" height="224"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/image002.jpg" alt="PC8001 short profile 2" width="320" height="224"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/image004.jpg" alt="PC8001 short profile 3" width="320" height="224"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/image005.jpg" alt="PC8001 long profile 1" width="320" height="224"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/image006.jpg" alt="PC8001 long profile 2" width="320" height="224"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/USECASE_PC8801mk2.jpg" alt="Use case : PC8801mk2 long profile" width="320" height="224"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/USECASE_X1turbo40.jpg" alt="Use case : X1 turbo model40 short profile" width="320" height="224"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/USECASE_PC9801VX_AngleProfile.jpg" alt="Use case : PC-9801VX short profile" width="320" height="224"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/USECASE_PC9801VX_ShortProfile.jpg" alt="Use case : PC-9801VX short profile" width="320" height="224"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/Taping.jpg" alt="Taping" width="320" height="224"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/3Dprint_shell.jpg" alt="3Dprint shell " width="320" height="224"/>
 
 ---
+
 ## GERBERs and BOMs
+
+---  
 
 ### Digital RGB DIN8p PC-8001 type pinout to DE15 VGA pinout (support ex. PC-8001/8801/9801/FM-7/MZ-700/Pasopia PA7010/Basic master level3/X1 turbo model 40)  
   
@@ -73,6 +76,8 @@ https://github.com/antarcticlion/RGB_UNICONV/wiki/How-to-make
  - DE15 connector (solder cup) x1  
  - PCB mount din8 connector x1  
  - long pin header(minimum height 6mm) 3p x6  
+
+---  
 
 ### Analog RGB DSUB15p 2row(DA15) PC-8801mk2SR type pinout to DE15 VGA pinout (support ex. PC-8801SR～/9801U･VM～/X68000)  
 
