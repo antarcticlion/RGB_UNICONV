@@ -1,3 +1,4 @@
 2022/07/09 Added pin type DE15 out PCB
 2022/07/20 Added PC8801SR etc. DA15 configulation
 2022/07/20 Added X1/X1turbo DIN6 configulation
+2022/07/30 Each PCB: Added "Licensed under CERN-OHL-W v2" somewhere on the silkscreen.
