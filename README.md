@@ -6,6 +6,8 @@ PCBs for Retro computer display connector convertion.
   
 ## news  
 
+2022/07/30 Each PCB: Added "Licensed under CERN-OHL-W v2" somewhere on the silkscreen.
+
 2022/07/20 Added X1/X1turbo DIN6 configulation  
 2022/07/20 Added PC8801SR etc. DA15 configulation  
   
@@ -36,13 +38,13 @@ https://github.com/antarcticlion/RGB_UNICONV/wiki/How-to-make
   
   #### lastest gerber 
   ##### DIN8_PC8001_IN PCB  
-　　　https://github.com/antarcticlion/RGB_UNICONV/raw/main/DIN8_PC8001_IN/gerber/RGB_CONN_CHG_DIN8_ST4.zip  
+　　　https://github.com/antarcticlion/RGB_UNICONV/raw/main/DIN8_PC8001_IN/gerber/RGB_CONN_CHG_DIN8_ST4A.zip  
 　　　PC-8001 type pin-out RGB display 8-pin DIN connector Breakout board.  
 　　　Adjust the level using a 150Ω resistor.  
 <img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DIN8_8001_A.png" alt="DIN8_8001_IN PCB SIDE A" width="320" height="256"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DIN8_8001_B.png" alt="DIN8_8001_IN PCB SIDE B" width="288" height="256"/>  
   
   ##### ANGLE_CHANGE_MID PCB 
-　　　https://github.com/antarcticlion/RGB_UNICONV/blob/main/ANGLE_CHANGE_MID/gerber/RGB_CONN_CHG_MID_ST3.zip  
+　　　https://github.com/antarcticlion/RGB_UNICONV/blob/main/ANGLE_CHANGE_MID/gerber/RGB_CONN_CHG_MID_ST3A.zip  
 　　　By sandwiching this board between the input board and the output board, the position of the signal pin is changed by 90 degrees.  
 　　　Used when the connector interferes.  
 　　　You can also combine two boards to extend the overall length.  
@@ -51,10 +53,10 @@ https://github.com/antarcticlion/RGB_UNICONV/wiki/How-to-make
 <img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/ANGLE_A.png" alt="ANGLE_CHANGE_MID PCB SIDE A" width="256" height="256"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/ANGLE_B.png" alt="ANGLE_CHANGE_MID PCB SIDE B" width="256" height="256"/>    
   
   ##### DE15_OUT PCB  
-　　　https://github.com/antarcticlion/RGB_UNICONV/raw/main/DE15_OUT/gerber/RGB_CONN_CHG_DE15_CUP_ST2.zip  
+　　　https://github.com/antarcticlion/RGB_UNICONV/raw/main/DE15_OUT/gerber/RGB_CONN_CHG_DE15_CUP_ST2A.zip  
 　　　Breakout board for solder cup type D-sub 15-pin 3-rows (DE15) connector.  
 <img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DE15_CUP_A.png" alt="DE15_OUT PCB SIDE A" width="450" height="240"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DE15_CUP_B.png" alt="DE15_OUT PCB SIDE B" width="450" height="240"/>  
-　　　https://github.com/antarcticlion/RGB_UNICONV/raw/main/DE15_OUT/gerber/RGB_CONN_CHG_DE15_ST.zip  
+　　　https://github.com/antarcticlion/RGB_UNICONV/raw/main/DE15_OUT/gerber/RGB_CONN_CHG_DE15_ST1A.zip  
 　　　Breakout board for pin type D-sub 15-pin 3-rows (DE15) connector.  
 <img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DE15_pin_A.png" alt="DE15_OUT pin PCB SIDE A" width="450" height="240"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DE15_pin_B.png" alt="DE15_OUT pin PCB SIDE B" width="450" height="240"/>  
   
@@ -90,7 +92,7 @@ https://github.com/antarcticlion/RGB_UNICONV/wiki/How-to-make
 
 #### lastest gerber 
 ##### DA15_PC88SR_IN PCB  
-  https://github.com/antarcticlion/RGB_UNICONV/raw/main/DA15_88SR_IN/gerber/RGB_CONN_CHG_DA15_PC88SR_ST2.zip  
+  https://github.com/antarcticlion/RGB_UNICONV/raw/main/DA15_88SR_IN/gerber/RGB_CONN_CHG_DA15_PC88SR_ST2A.zip  
 
 PC-8801mk2SR type pin-out RGB display D-Sub 15pin 2row connector(Solder cup type) Breakout board.
 CSYNC and Audio L R are pulled out in the optional pinout.
@@ -103,7 +105,7 @@ On the YM2203-equipped machine, the same sound is produced for both LR.
 <img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DA15_PC88SR_A.png" alt="DA15_PC88SR_IN PCB SIDE A" width="288" height="256"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DA15_PC88SR_B.png" alt="DA15_PC88SR_IN PCB SIDE B" width="288" height="256"/>   
 
 ##### CSYNC_ANGLE_CHANGE_MID PCB  
-https://github.com/antarcticlion/RGB_UNICONV/raw/main/ANGLE_CHANGE_MID/gerber/RGB_CONN_CHG_MID_ST3.zip  
+https://github.com/antarcticlion/RGB_UNICONV/raw/main/ANGLE_CHANGE_MID/gerber/RGB_CONN_CHG_MID_ST3A.zip  
 
 This angle-change-PCB have prepared a jumper so that you can select the relay of CSYNC and HSYNC that are pulled out as an option.  
 This makes it possible to directly connect a PC-8801mk2SR, etc. to the GBS8200 / 8220 / HD-VC9900.  
@@ -157,7 +159,7 @@ This makes it possible to directly connect a PC-8801mk2SR, etc. to the GBS8200 /
   
   #### lastest gerber 
   ##### DIN6_X1_IN PCB  
-　　　https://github.com/antarcticlion/RGB_UNICONV/raw/main/DIN6_X1_IN/gerber/RGB_CONN_CHG_DIN6_ST4.zip  
+　　　https://github.com/antarcticlion/RGB_UNICONV/raw/main/DIN6_X1_IN/gerber/RGB_CONN_CHG_DIN6_ST4A.zip  
 　　　X1/X1turbo type pin-out RGB display 6-pin DIN connector Breakout board.  
 　　　Adjust the level using a 150Ω resistor.  
 <img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DIN6_X1_A.png" alt="DIN6_X1_IN PCB SIDE A" width="320" height="256"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DIN6_X1_B.png" alt="DIN6_X1_IN PCB SIDE B" width="288" height="256"/>  
