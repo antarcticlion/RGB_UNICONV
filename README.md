@@ -199,10 +199,11 @@ This makes it possible to directly connect a PC-8801mk2SR, etc. to the GBS8200 /
 
 ### Analog RGB DSUB9p (DE9) PC-98XA/XL/XL2/RL type pinout to DE15 VGA pinout  
   
-  #### lastest gerber 
+  #### lastest gerber  
   ##### DE9_PC98XL_IN PCB  
-     https://github.com/antarcticlion/RGB_UNICONV/raw/main/DE9_PC98XL_IN/gerber/RGB_CONN_CHG_DE9_98XL_ST2A.zip  
-  　　PC-98XA/XL/XL2/RL type pinout RGB display DSUB 9p (DE9) connector Breakout board.  
+　　　https://github.com/antarcticlion/RGB_UNICONV/raw/main/DE9_PC98XL_IN/gerber/RGB_CONN_CHG_DE9_98XL_ST2A.zip  
+　　　PC-98XA/XL/XL2/RL type pinout RGB display DSUB 9p (DE9) connector Breakout board.  
+<img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DE9_PC98XL_A.png" alt="DE9_PC98XL_IN PCB SIDE A" width="320" height="256"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DE9_PC98XL_B.png" alt="DE9_PC98XL_IN PCB SIDE B" width="288" height="256"/>  
 
 #### BOM (short profile)  
  - DE9_PC98XL_IN PCB x1  
@@ -233,14 +234,16 @@ This makes it possible to directly connect a PC-8801mk2SR, etc. to the GBS8200 /
   
   #### lastest gerber 
   ##### DE9_FM77_IN PCB  
-     https://github.com/antarcticlion/RGB_UNICONV/raw/main/DE9_FM77_IN/gerber/RGB_CONN_CHG_DE9_FM77_ST2A.zip
-     FM77 type pinout RGB display DSUB 9p (DE9) connector Breakout board.  
+　　　https://github.com/antarcticlion/RGB_UNICONV/raw/main/DE9_FM77_IN/gerber/RGB_CONN_CHG_DE9_FM77_ST2A.zip  
+　　　FM77 type pinout RGB display DSUB 9p (DE9) connector Breakout board.  
 　　　Adjust the level using a 150Ω resistor.  
-
+<img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DE9_FM77_A.png" alt="DE9_FM77_IN PCB SIDE A" width="320" height="256"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/DE9_FM77_B.png" alt="DE9_FM77_IN PCB SIDE B" width="288" height="256"/>  
+  
   ##### ANGLE_CHANGE_DIGITAL_MID PCB
-     https://github.com/antarcticlion/RGB_UNICONV/raw/main/ANGLE_CHANGE_DIGITAL_MID/gerber/RGB_CONN_CHG_MID_DIGITAL_ST1A.zip
-     Digital RGB signal level control angle change board
-
+　　　https://github.com/antarcticlion/RGB_UNICONV/raw/main/ANGLE_CHANGE_DIGITAL_MID/gerber/RGB_CONN_CHG_MID_DIGITAL_ST1A.zip  
+　　　Digital RGB signal level control angle change board  
+<img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/ANGLE_CHANGE_DIGITAL_A.png" alt="ANGLE_CHANGE_DIGITAL_MID PCB SIDE A" width="320" height="256"/><img src="https://github.com/antarcticlion/RGB_UNICONV/raw/main/images/ANGLE_CHANGE_DIGITAL_B.png" alt="ANGLE_CHANGE_DIGITAL_MID PCB SIDE B" width="288" height="256"/>  
+  
 #### BOM (short profile)  
   N/A  
   
