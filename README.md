@@ -2,9 +2,21 @@
 
 PCBs for Retro computer display connector convertion.  
 
+---
+  
+## available configulations  
+- Digital RGB DIN8p PC-8001 type pinout to DE15 VGA pinout (support ex. PC-8001/8801/9801/FM-7/MZ-700/Basic master level3/Pasopia PA7010/X1 turbo model 40)  
+- Analog RGB DSUB15p 2row(DA15) PC-8801mk2SR type pinout to DE15 VGA pinout (support ex. PC-8801SR～/9801U･VM～/X68000)  
+- Digital RGB DIN6p X1/X1turbo(without model 40) type pinout to DE15 VGA pinout  
+- Analog RGB DSUB9p (DE9) PC-98XA/XL/XL2/RL type pinout to DE15 VGA pinout
+- Digital RGB DSUB9p (DE9) FM77 type pinout to DE15 VGA pinout  (support FM77-D1/D2/L4/L2/AV)
+
 ---  
   
 ## news  
+
+2022/09/27 Added PC98 Hi-resolution model (XA/XL/XL2/RL) DE9 configulation  
+2022/09/27 Added FM77 Digital RGB 8 colors (D1/D2/L2/L4(8color only)/AV) DE9 configulation  
 
 2022/07/30 Each PCB: Added "Licensed under CERN-OHL-W v2" somewhere on the silkscreen.
 
@@ -15,13 +27,6 @@ PCBs for Retro computer display connector convertion.
   
 2022/06/25 Added the assembly procedure to the wiki. Since it is written in Japanese, please machine-translate it into your native language.  
 https://github.com/antarcticlion/RGB_UNICONV/wiki/How-to-make  
-  
----
-  
-## available configulations  
-- Digital RGB DIN8p PC-8001 type pinout to DE15 VGA pinout (support ex. PC-8001/8801/9801/FM-7/MZ-700/Basic master level3/Pasopia PA7010/X1 turbo model 40)  
-- Analog RGB DSUB15p 2row(DA15) PC-8801mk2SR type pinout to DE15 VGA pinout (support ex. PC-8801SR～/9801U･VM～/X68000)  
-- Digital RGB DIN6p X1/X1turbo(without model 40) type pinout to DE15 VGA pinout  
 
 ---
 ## photos  
@@ -64,7 +69,7 @@ https://github.com/antarcticlion/RGB_UNICONV/wiki/How-to-make
  - DIN8_PC8001_IN PCB x1  
  - DE15_OUT PCB x1  
  - 150ohm register x3  
- - DE15 connector (solder cup) x1  
+ - DE15 female connector (solder cup) x1  
  - PCB mount din8 connector x1  
  - long pin header(minimum height 6mm) 3p x2  
   
@@ -73,7 +78,7 @@ https://github.com/antarcticlion/RGB_UNICONV/wiki/How-to-make
  - ANGLE_CHANGE_MID PCB x1  
  - DE15_OUT PCB x1  
  - 150ohm register x3  
- - DE15 connector (solder cup) x1  
+ - DE15 female connector (solder cup) x1  
  - PCB mount din8 connector x1  
  - long pin header(minimum height 6mm) 3p x4  
   
@@ -82,7 +87,7 @@ https://github.com/antarcticlion/RGB_UNICONV/wiki/How-to-make
  - ANGLE_CHANGE_MID PCB x2  
  - DE15_OUT PCB x1  
  - 150ohm register x3  
- - DE15 connector (solder cup) x1  
+ - DE15 female connector (solder cup) x1  
  - PCB mount din8 connector x1  
  - long pin header(minimum height 6mm) 3p x6  
 
@@ -168,7 +173,7 @@ This makes it possible to directly connect a PC-8801mk2SR, etc. to the GBS8200 /
  - DIN6_X1_IN PCB x1  
  - DE15_OUT PCB x1  
  - 150ohm register x3  
- - DE15 connector (solder cup) x1  
+ - DE15 female connector (solder cup) x1  
  - PCB mount din8 connector x1  
  - long pin header(minimum height 6mm) 3p x2  
   
@@ -177,7 +182,7 @@ This makes it possible to directly connect a PC-8801mk2SR, etc. to the GBS8200 /
  - ANGLE_CHANGE_MID PCB x1  
  - DE15_OUT PCB x1  
  - 150ohm register x3  
- - DE15 connector (solder cup) x1  
+ - DE15 female connector (solder cup) x1  
  - PCB mount din8 connector x1  
  - long pin header(minimum height 6mm) 3p x4  
   
@@ -186,9 +191,92 @@ This makes it possible to directly connect a PC-8801mk2SR, etc. to the GBS8200 /
  - ANGLE_CHANGE_MID PCB x2  
  - DE15_OUT PCB x1  
  - 150ohm register x3  
- - DE15 connector (solder cup) x1  
+ - DE15 female connector (solder cup) x1  
  - PCB mount din8 connector x1  
  - long pin header(minimum height 6mm) 3p x6  
+
+---
+
+### Analog RGB DSUB9p (DE9) PC-98XA/XL/XL2/RL type pinout to DE15 VGA pinout  
+  
+  #### lastest gerber 
+  ##### DE9_PC98XL_IN PCB  
+     https://github.com/antarcticlion/RGB_UNICONV/raw/main/DE9_PC98XL_IN/gerber/RGB_CONN_CHG_DE9_98XL_ST2A.zip  
+  　　PC-98XA/XL/XL2/RL type pinout RGB display DSUB 9p (DE9) connector Breakout board.  
+
+#### BOM (short profile)  
+ - DE9_PC98XL_IN PCB x1  
+ - DE15_OUT PCB x1  
+ - DE15 female connector (solder cup) x1  
+ - DE9 male connector (solder cup) x1  
+ - long pin header(minimum height 6mm) 3p x2  
+  
+#### BOM (90° angle profile)  
+ - DE9_PC98XL_IN PCB x1  
+ - ANGLE_CHANGE_MID PCB x1  
+ - DE15_OUT PCB x1  
+ - DE15 female connector (solder cup) x1  
+ - DE9 male connector (solder cup) x1  
+ - long pin header(minimum height 6mm) 3p x4  
+  
+#### BOM (long profile)  
+ - DE9_PC98XL_IN PCB x1  
+ - ANGLE_CHANGE_MID PCB x2  
+ - DE15_OUT PCB x1  
+ - DE15 female connector (solder cup) x1  
+ - DE9 male connector (solder cup) x1  
+ - long pin header(minimum height 6mm) 3p x6  
+
+---
+
+### Digital RGB DSUB9p (DE9) FM77 type pinout to DE15 VGA pinout  (support FM77-D1/D2/L4/L2/AV)
+  
+  #### lastest gerber 
+  ##### DE9_FM77_IN PCB  
+     https://github.com/antarcticlion/RGB_UNICONV/raw/main/DE9_FM77_IN/gerber/RGB_CONN_CHG_DE9_FM77_ST2A.zip
+     FM77 type pinout RGB display DSUB 9p (DE9) connector Breakout board.  
+　　　Adjust the level using a 150Ω resistor.  
+
+  ##### ANGLE_CHANGE_DIGITAL_MID PCB
+     https://github.com/antarcticlion/RGB_UNICONV/raw/main/ANGLE_CHANGE_DIGITAL_MID/gerber/RGB_CONN_CHG_MID_DIGITAL_ST1A.zip
+     Digital RGB signal level control angle change board
+
+#### BOM (short profile)  
+  N/A  
+  
+#### BOM (90° angle profile)  
+ - DE9_FM77_IN PCB x1  
+ - ANGLE_CHANGE_DIGITAL_MID PCB x1  
+ - DE15_OUT PCB x1  
+ - 150ohm register x3  
+ - DE15 female connector (solder cup) x1  
+ - DE9 male connector (solder cup) x1  
+ - long pin header(minimum height 6mm) 3p x4  
+  
+#### BOM (long profile)  
+ - DE9_FM77_IN PCB x1  
+ - ANGLE_CHANGE_DIGITAL_MID PCB x2  
+ - ANGLE_CHANGE_MID PCB x1  
+ - DE15_OUT PCB x1  
+ - 150ohm register x3  
+ - DE15 female connector (solder cup) x1  
+ - DE9 male connector (solder cup) x1  
+ - long pin header(minimum height 6mm) 3p x6  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 #  Source of reference
