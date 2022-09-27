@@ -263,27 +263,12 @@ This makes it possible to directly connect a PC-8801mk2SR, etc. to the GBS8200 /
  - DE9 male connector (solder cup) x1  
  - long pin header(minimum height 6mm) 3p x6  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 #  Source of reference
  - PC-8001 type DIN8 RGB Display connector pinout : 改訂2版 PC-9800シリーズ テクニカルデータブック HARDWAER編 ISBN4-7561-1008-8
  - VGA DE15 RGB Display connector pinout : SECOND EDITION THE PROGRAMMER'S PC SOURCEBOOK ISBN1-55615-321-X
- - X1センター -> インターフェイスコネクタ http://www.x1center.org/
-
+ - X1センター -> インターフェイスコネクタ : http://www.x1center.org/
+ - Retro PC Gallery (by はせりん) -> 番外編７：FM-8/7/77/77AVシリーズの微妙な非互換性 : http://haserin09.la.coocan.jp/
 ---
 
 # LICENSE
